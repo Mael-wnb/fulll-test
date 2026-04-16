@@ -1,6 +1,10 @@
-# Fulll backend test
+# FizzBuzz
 
-This repository contains my solutions for the two exercises:
+Implémentation simple de l’exercice FizzBuzz en JavaScript.
 
-- `fizzbuzz/` for the algorithm exercise
-- `vehicle-fleet/` for the backend / DDD / CQRS exercise
+## Lancer le projet
+
+```bash
+npm install
+npm test
+npm start -- 15
