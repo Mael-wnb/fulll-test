@@ -1,0 +1,21 @@
+{
+  "name": "vehicle-fleet",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:critical": "cucumber-js --tags @critical",
+    "cli": "ts-node src/cli.ts"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.0",
+    "@types/node": "^22.19.17",
+    "@types/pg": "^8.20.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "pg": "^8.20.0"
+  }
+}
